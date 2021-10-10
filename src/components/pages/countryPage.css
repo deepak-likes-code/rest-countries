@@ -1,0 +1,38 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+  display: block;
+}
+
+.countryDetails {
+  display: flex;
+  height: 30vh;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 2rem;
+  justify-content: center;
+  align-self: center;
+}
+
+.details h1 {
+  margin-bottom: 2rem;
+}
+.details p {
+  margin-bottom: 1rem;
+}
+
+.flag {
+  width: 50%;
+  height: 100%;
+}
+
+.flag img {
+  width: 100%;
+  height: 100%;
+}
